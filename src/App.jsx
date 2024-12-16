@@ -10,8 +10,8 @@ import HomePage from "./Pages/Home/Index";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/home" element={"This is urmi & Ahnaf"} />
       <Route path="/" element={<HomePage />} />
+      <Route path="/home" element={"This is urmi & Ahnaf"} />
     </Route>
   )
 );
